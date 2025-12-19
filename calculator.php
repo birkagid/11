@@ -29,7 +29,7 @@ if (!empty($requestData)) {
                 $result = $num1 * $num2;
                 break;
             case '/':
-                if ($num2 == 0.0) {
+                if ($num2 === 0.0) {
                     $error = "Ошибка: деление на ноль";
                 } else {
                     $result = $num1 / $num2;
