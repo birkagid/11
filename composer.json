@@ -1,0 +1,13 @@
+{
+    "name": "birka/eleventh",
+    "type": "project",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.0",
+        "phpstan/phpstan": "2.1",
+        "phpunit/phpunit": "10",
+        "phpstan/phpstan-phpunit": "2.0"
+    }
+}
